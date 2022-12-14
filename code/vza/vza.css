@@ -1,0 +1,87 @@
+.block {
+  display: block;
+  border: none;
+  border-radius: 0.2em;
+  background-color: #00396d;
+  color: white;
+  padding: 10px 45px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Sign Up view - Available Assignments table scene_208 view_466 */
+/* My Assignments view - Today's Assignments table scene_208 view_447 */
+/* My Assignments view - Future Assignments table scene_208 view_439 */
+.table-spinner {
+  color: #023f74;
+  font-size: 30px;
+}
+
+.pagination-arrows {
+  cursor: pointer;
+  display: flex;
+}
+
+.shift-header {
+  background-color: #023f74;
+  color: white;
+}
+
+.assignments-table {
+  overflow: visible;
+  /* Add some space between table and pagination controls below */
+  margin-bottom: 10.5px;
+}
+
+.my-shift-button > span.icon > i {
+  color: #af3c3c;
+}
+
+a.disabled > h2 > button {
+  opacity: 40%;
+}
+
+/* Big Buttons */
+.big-button-container {
+  border-radius: 2px;
+  box-shadow: 0px 1px 2px 0px gray;
+  font-size: 2.5em;
+  padding: 10px;
+  margin: 20px;
+  max-width: 12em;
+}
+
+.big-button-container:hover {
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+
+.fa {
+  vertical-align: middle;
+}
+
+a.big-button {
+  text-decoration: none;
+}
+
+/* Small Buttons */
+.small-button-container {
+  padding: 5px;
+  margin: 20px;
+  border-radius: 2px;
+  box-shadow: 0px 1px 2px 0px gray;
+  font-size: 1em;
+  max-width: 15em;
+  background-color: #babbbc;
+  color: white;
+}
+
+.small-button-container:hover {
+  background-color: #4c4c4c;
+  cursor: pointer;
+}
+
+a.small-button {
+  text-decoration: none;
+}
